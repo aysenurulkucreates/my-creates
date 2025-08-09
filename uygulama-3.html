@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Time</title>
+    <style>
+        * { box-sizing: border-box;
+            margin: 0;
+           padding: 0;
+        }
+        body {
+            margin: 0;
+            background-color: #FFF8F0;
+        }
+        .showcase {
+            background: url('s.jpeg');
+            background-position: center;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            height: 400px;
+            color: white;
+            margin: 0;
+
+        }
+        #button {
+            background-color: #EFE4D2;
+        }
+        .main-header {
+            background-color: #3B060A;
+            padding: 10px;
+            width: 100%;
+        
+        }
+        .main-header__logo {
+            display: inline-block;
+            width: 150px;
+            color: white;
+            font-size: 21px;
+            font-weight: bold;
+            padding: 10px;
+            text-decoration: none;
+        }
+        .main-nav {
+            display: inline-block;
+            width: calc(100% - 150px);
+            text-align: right;
+            vertical-align: top;
+        }
+        .main-nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            font-size: 20px;
+        }
+        .second-header {
+            color: white;
+            background-color: #A76545;
+            margin: 0;
+            padding: 15px;
+            text-align: center;
+        }
+        .how-it-works {
+            text-align: center;
+            padding: 10px;
+            background-color: #FFF8F0;
+            
+        }
+        .steps {
+           
+            margin: 40px auto;
+            font-size: 0;
+            max-width: 1100px;
+            text-align: center;
+            padding: 0 16px;
+           
+
+        }
+        .step {
+            display: inline-block;
+            width: 31%;
+            margin: 0 1%;
+            vertical-align: top;
+            font-size: 16px;
+            border-radius: 8px;
+            padding: 16px;
+            text-align: left;
+            border-radius: 8px;
+            
+        }
+        .choose-coffee::before {
+            content: '\2615';
+            margin: 3px;
+        }
+        .personalize-to-your-liking::before {
+            content: '\1F90E';
+            margin: 3px;
+        }
+        .order-fast::before {
+            content: '\1F69A';
+            margin: 3px;
+        }
+        .choose-coffee:hover {
+            background-color: #854836;
+            color: white;
+        }
+        .personalize-to-your-liking:hover {
+            background-color: #854836;
+            color: white;
+
+        }
+        .order-fast:hover {
+
+            background-color: #854836;
+            color: white;
+
+        }
+        #button:hover {
+            background-color: #854836;
+            color: white;
+
+        }
+        #footer {
+            color: white;
+            background-color: #654520;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <a href="#" class="main-header__logo">CoffeeTimeCo</a>
+        <nav class="main-nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <header class="second-header">
+        <h1>Coffee Time</h1>
+        <p>"Fresh coffee, fresh day."</p>
+
+    </header>
+    
+  <main>
+    <section class="showcase">
+        <h2>Order Your Coffee Online</h2>
+        <button id="button">Order Now</button>
+
+    </section>
+    
+    <section class="how-it-works">
+        <h2>How It Works?</h2>
+
+    </section>
+    <section class="steps"> 
+    <section class="step">
+        <h3 class="choose-coffee">Choose Coffee</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, illo. Voluptatibus vitae sapiente vel pariatur.</p>
+    </section>
+    <section class="step">
+        <h3 class="personalize-to-your-liking">Personalize to Your Liking</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quis architecto maxime eos a sunt!</p>
+    </section>
+    <section class="step">
+        <h3 class="order-fast">Order Fast</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis illum ad adipisci accusantium corrupti quisquam.</p>
+    </section>
+    </section>
+  </main>
+  <br><br><br><br><br>
+
+  <footer id="footer">&#169 2025 Coffee Time</footer>
+    
+</body>
+</html>
