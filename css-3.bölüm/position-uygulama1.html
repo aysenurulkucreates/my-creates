@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        * {
+            box-sizing: border-box;
+        }
+        html {
+            height: 2000px;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+            font-size: 0;
+        }
+        .box1, .box2, .box3 {
+            display: inline-block;
+            height: 300px;
+            width: 28%;
+            vertical-align: top;
+            text-align: center;
+            font-size: 24px;
+            padding: 20px;
+            margin: 0 1%;
+            position: relative;
+            border-radius: 8px;
+            background-color: beige;
+            
+
+        }
+        #small-box1 {
+            height: 50px;
+            width: 100px;
+            background-color: brown;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        #small-box2 {
+            height: 50px;
+            width: 100px;
+            background-color: blue;
+            position: absolute;
+            right: 0;
+            top: 0;
+
+        }
+        #small-box3 {
+            height: 50px;
+            width: 100px;
+            background-color: orange;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        .main-header {
+            background-color: cadetblue;
+            height: 50px;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            z-index: 1;
+            
+            
+        }
+        #showcase {
+            color: black;
+            margin-top: 0;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <h1 id="showcase">MovieApp</h1>
+    </header>
+    <div class="container">
+        <div class="box1">
+           <div id="small-box1">20% Sale</div> 
+        </div>
+        <div class="box2">
+          <div id="small-box2">20% Sale</div> 
+        </div>
+        <div class="box3">
+          <div id="small-box3">20% Sale</div> 
+        </div>
+    </div>
+    
+</body>
+</html>
