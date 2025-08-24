@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body { margin: 0;}
+
+        .section-title {
+            text-align: center;
+        }
+        .row {
+            margin-bottom: 40px;
+            
+
+        }
+        .row::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .col3 {
+            
+            text-align: center;
+            padding: 5px;
+            width: 33.3%;
+            float: left;
+        }
+        .plan__badge {
+            background-color: white;
+            color: #fc997c;
+            padding: 8px;
+            border-radius: 5px;
+        }
+        .recommended_plan {
+            color: white;
+            background-color: #396eb0!important;
+        }
+    
+        .container {
+            margin: 0 auto;
+            width: 1000px;
+        }
+        .inner-plan {
+            background-color: #e6f2ff;
+            padding: 25px 10px;
+            border-radius: 5px;
+        }
+        .plan__features {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .plan__features li {
+            margin: 6px 0px;
+        }
+    </style>
+</head>
+<body>
+   <section class="plans">
+    <div class="row">
+    <h2 class="section-title">Become a Premium Member</h2>
+    <div class="container">
+    
+        <div class="col3">
+             <div class="inner-plan">
+             
+                            
+            <h2>Free</h2>
+            <h3>0/Month</h3>
+        <ul class="plan__features">
+            <li>HD avaliable</li>
+            <li>Unlimited Movies and TV shows</li>
+            <li>Watch on your phone & tablet</li>
+            <li>Downland and watch offline</li>
+            <li>Screens you can watch</li>
+            <li>First month free</li>
+           
+                            
+        </ul>
+         <div>
+                <button id="button">Choose Plan</button>
+        </div>
+        </div>
+         </div>
+         <div class="col3">
+            <div class="inner-plan recommended_plan">
+             
+            <h2 class="plan__badge">Recommended</h2>             
+            <h2>Basic</h2>
+            <h3>$9.99/Month</h3>
+        <ul class="plan__features">
+            <li>HD avaliable</li>
+            <li>Unlimited Movies and TV shows</li>
+            <li>Watch on your phone & tablet</li>
+            <li>Downland and watch offline</li>
+            <li>Screens you can watch</li>
+            <li>First month free</li>
+           
+                            
+        </ul>
+         <div>
+                <button id="button">Choose Plan</button>
+        </div>
+         </div>
+
+        </div>
+         <div class="col3">
+            <div class="inner-plan">
+             
+                            
+            <h2>Premium</h2>
+            <h3>$19.99/Month</h3>
+        <ul class="plan__features">
+            <li>HD avaliable</li>
+            <li>Unlimited Movies and TV shows</li>
+            <li>Watch on your phone & tablet</li>
+            <li>Downland and watch offline</li>
+            <li>Screens you can watch</li>
+            <li>First month free</li>
+            
+                            
+        </ul>
+        <div>
+                <button id="button">Choose Plan</button>
+         </div>
+         </div>
+         
+
+        </div>
+
+    </div>
+    </div>
+   </section>
+    
+</body>
+</html>
