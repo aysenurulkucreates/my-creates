@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Users</title>
+</head>
+<body>
+    
+    <!--header-->
+    <header>
+        <nav class="navbar bg-dark border-bottom border-body navbar-expand-lg" data-bs-theme="dark">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">Admin</a>
+                 
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="category.html" class="nav-link">Category</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="product.html" class="nav-link">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="slider.html" class="nav-link">Slider</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="act.html" class="nav-link">Act</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="user.html" class="nav-link active">User</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="order.html" class="nav-link">Order</a>
+                    </li>
+                    
+                </ul>
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Ayşe Nur Ülkü</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="my-account.html" class="dropdown-item">My Account</a></li>
+                            <li><a href="#" class="dropdown-item">Logout</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="register.html" class="nav-link">Register</a>
+                    </li>
+                    
+                </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--main-->
+    <main class="container my-3">
+        <div class="row">
+            <div class="col">
+                <div class="card shadow">
+                    <div class="card-header py-1 d-flex justify-content-between align-items-center">
+                        <h5 class="card-title">Users</h5>
+                        <a href="add-user.html" class="btn btn-sm btn-primary">
+                            <i class="fa-solid fa-plus"></i>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                        <table class="table table-bordered table-hover table-striped mb-0">
+                          <thead class="table-secondary">
+                            <tr>
+                                <td style="width: 20px;">Id</td>
+                                <td style="width: 60px;">Image</td>
+                                <td>Username</td>
+                                <td>Name-Surname</td>
+                                <td>Email</td>
+                                <td>Confirmation</td>
+                                <td style="width: 50px;"></td>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    <img src="img/user.png" alt="" class="img-fluid">
+                                </td>
+                                <td> <a href="#">aysenurulku</a></td>
+                                <td>Ayşe Nur Ülkü</td>
+                                <td>aysenurulku17@gmail.com</td>
+                                <td>
+                                    <i class="fa-solid fa-circle-check text-success"></i>
+                                </td>
+                                <td>
+                                    <a href="add-user.html" class="btn btn-primary btn-sm me-1">
+                                        <i class="fa-solid fa-pen-to-square"></i>
+                                    </a>
+                                   
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>
+                                    <img src="img/user.png" alt="" class="img-fluid">
+                                </td>
+                                <td> <a href="#">aysenurulku</a></td>
+                                <td>Ayşe Nur Ülkü</td>
+                                <td>aysenurulku17@gmail.com</td>
+                                <td>
+                                    <i class="fa-solid fa-circle-check text-success"></i>
+                                </td>
+                                <td>
+                                    <a href="add-user.html" class="btn btn-primary btn-sm me-1">
+                                        <i class="fa-solid fa-pen-to-square"></i>
+                                    </a>
+                                   
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>
+                                    <img src="img/user.png" alt="" class="img-fluid">
+                                </td>
+                                <td> <a href="#">aysenurulku</a></td>
+                                <td>Ayşe Nur Ülkü</td>
+                                <td>aysenurulku17@gmail.com</td>
+                                <td>
+                                    <i class="fa-solid fa-circle-check text-success"></i>
+                                </td>
+                                <td>
+                                    <a href="add-user.html" class="btn btn-primary btn-sm me-1">
+                                        <i class="fa-solid fa-pen-to-square"></i>
+                                    </a>
+                                   
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>
+                                    <img src="img/user.png" alt="" class="img-fluid">
+                                </td>
+                                <td> <a href="#">aysenurulku</a></td>
+                                <td>Ayşe Nur Ülkü</td>
+                                <td>aysenurulku17@gmail.com</td>
+                                <td>
+                                    <i class="fa-solid fa-circle-check text-success"></i>
+                                </td>
+                                <td>
+                                    <a href="add-user.html" class="btn btn-primary btn-sm me-1">
+                                        <i class="fa-solid fa-pen-to-square"></i>
+                                    </a>
+                                   
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>
+                                    <img src="img/user.png" alt="" class="img-fluid">
+                                </td>
+                                <td> <a href="#">aysenurulku</a></td>
+                                <td>Ayşe Nur Ülkü</td>
+                                <td>aysenurulku17@gmail.com</td>
+                                <td>
+                                    <i class="fa-solid fa-circle-xmark text-danger"></i>
+                                </td>
+                                <td>
+                                    <a href="add-user.html" class="btn btn-primary btn-sm me-1">
+                                        <i class="fa-solid fa-pen-to-square"></i>
+                                    </a>
+                                   
+                                </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
